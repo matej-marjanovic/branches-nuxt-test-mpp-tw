@@ -5,7 +5,7 @@
         <div
           class="flex font-bold justify-center text-teal-600 sm:justify-start"
         >
-          <span class="font-bold">MPP d.o.o.</span>&nbsp- Mlini in luščilci za
+          <span class="font-bold">MPP d.o.o. </span>&nbsp;Mlini in luščilci za
           žita
         </div>
 
