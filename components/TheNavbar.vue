@@ -65,7 +65,7 @@ const route = useRoute();
               @click="showMenu = !showMenu"
               class="
                 rounded
-                bg-gray-100
+                bg-teal-300
                 p-2
                 text-gray-600
                 transition
@@ -90,18 +90,20 @@ const route = useRoute();
           </div>
         </div>
       </div>
-      <div
+    </div>
+
+    <div
         :class="{ block: showMenu, hidden: !showMenu }"
-        class="block md:hidden"
+        class="relative z-10 w-full block md:hidden "
       >
-        <nav aria-label="Site Nav">
-          <ul class="block items-center gap-6 text-sm">
+        <nav class="absolute bg-teal-100/80 backdrop-blur-md	 w-full px-8" aria-label="Site Nav">
+          <ul @click="showMenu = !showMenu" class="block items-center gap-6 text-sm pb-2">
             <TheNavbarItem href="/">Domov</TheNavbarItem>
             <TheNavbarItem href="luscilec">Luščilec</TheNavbarItem>
             <TheNavbarItem href="kontakt">Kontakt</TheNavbarItem>
           </ul>
         </nav>
       </div>
-    </div>
+
   </header>
 </template>

@@ -6,11 +6,11 @@
       </div>
 
       <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
-        <div class="relative h-64 overflow-hidden sm:h-80 md:h-full">
+        <div class="relative h-80 overflow-hidden sm:h-96 md:h-full">
           <img
             alt="Party"
-            src="https://images.unsplash.com/photo-1496843916299-590492c751f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
-            class="absolute inset-0 h-full w-full object-cover"
+            src="/img/luscilec_mpp.jpeg"
+            class="absolute inset-0 h-full w-full object-contain"
           />
         </div>
 
@@ -111,9 +111,9 @@
                             </tr>
                           </tbody>
                         </table>
-                        <br />Za trenutne cene nas prosim kontaktirajte preko
-                        info@mpp.si.<br /><br />Navedene cene že vključujejo
-                        DDV.
+                        <br />Za trenutne cene nas prosim kontaktirajte preko info@mpp.si.
+                        <br /><br />
+                        <!-- Navedene cene že vključujejo DDV. -->
                       </div>
                     </div>
                   </div>
