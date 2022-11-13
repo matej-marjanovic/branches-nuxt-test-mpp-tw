@@ -1,6 +1,6 @@
 <template>
   <li class="my-4">
-    <a
+    <NuxtLink
       :class="{
         underline: route.name == href || (route.name == 'index' && href == '/'),
       }"
@@ -16,7 +16,7 @@
       :href="href"
     >
       <slot></slot>
-    </a>
+    </NuxtLink>
   </li>
 </template>
 

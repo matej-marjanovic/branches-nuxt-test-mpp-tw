@@ -1,6 +1,6 @@
 <template>
-  <!-- component -->
   <div class="text-gray-600 body-font">
+    <!-- component -->
     <section>
       <div class="mx-auto max-w-screen-xl px-4 py-4 sm:px-6 lg:px-8">
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -169,9 +169,7 @@
       </div>
     </section>
 
-    <div
-      class="mx-auto max-w-screen-xl relative inset-0 bg-gray-300 min-h-[450px]"
-    >
+    <div class="mx-auto max-w-screen-xl relative inset-0 bg-gray-300 min-h-[450px]">
       <div class="absolute inset-0 bg-gray-300">
         <!-- <iframe
         width="100%"
